@@ -166,13 +166,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/top_left_parent"
-        android:text="@string/between_top"
-        android:gravity="center"
-        android:background="@color/blue"
         android:layout_centerHorizontal="true"
-        android:textSize="17sp"
+        android:layout_toStartOf="@+id/top_right_parent"
         android:layout_toEndOf="@+id/top_left_parent"
-        android:layout_toStartOf="@+id/top_right_parent">
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="@string/between_top"
+        android:textSize="17sp">
 
     </TextView>
 
@@ -184,6 +184,19 @@
         android:layout_alignEnd="@+id/bottom_right"
         android:layout_above="@+id/bottom_left_parent"
         >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/between_bottom"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="17sp"
+
+            >
+
+        </TextView>
 
     </FrameLayout>
 
