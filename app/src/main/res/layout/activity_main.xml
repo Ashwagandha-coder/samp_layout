@@ -68,10 +68,10 @@
         android:layout_width="15dp"
         android:layout_height="75dp"
         android:layout_above="@+id/btn_center"
-        android:layout_marginBottom="15dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
         android:background="@color/black"
-        >
+        android:id="@+id/black_text">
 
 
     </TextView>
@@ -79,11 +79,11 @@
     <TextView
         android:layout_width="75dp"
         android:layout_height="15dp"
-        android:layout_marginBottom="15dp"
-        android:background="@color/green"
         android:layout_centerVertical="true"
         android:layout_marginLeft="40dp"
-        >
+        android:layout_marginBottom="15dp"
+        android:id="@+id/green_text"
+        android:background="@color/green">
 
 
     </TextView>
@@ -91,12 +91,12 @@
     <TextView
         android:layout_width="75dp"
         android:layout_height="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="40dp"
         android:layout_marginBottom="15dp"
         android:background="@color/red"
-        android:layout_centerVertical="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="40dp"
-        >
+        android:id="@+id/red_text">
 
 
     </TextView>
@@ -104,13 +104,12 @@
     <TextView
         android:layout_width="15dp"
         android:layout_height="75dp"
+        android:layout_below="@+id/btn_center"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
         android:layout_marginBottom="15dp"
         android:background="@color/yellow"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/btn_center"
-        android:layout_marginTop="15dp"
-        >
+        android:id="@+id/yellow_text">
 
 
     </TextView>
@@ -118,10 +117,49 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="@string/top_left"
+        android:background="@color/purple_200"
+        android:layout_alignStart="@+id/green_text"
+        android:layout_alignTop="@+id/black_text"
         >
 
     </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/top_right"
+        android:background="@color/purple_200"
+        android:layout_alignEnd="@+id/red_text"
+        android:layout_alignTop="@+id/black_text"
+        >
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bottom_left"
+        android:background="@color/purple_200"
+        android:layout_alignStart="@+id/green_text"
+        android:layout_alignBottom="@+id/yellow_text"
+        >
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bottom_right"
+        android:background="@color/purple_200"
+        android:layout_alignEnd="@+id/red_text"
+        android:layout_alignBottom="@+id/yellow_text"
+        >
+
+    </TextView>
+
 
 
 
