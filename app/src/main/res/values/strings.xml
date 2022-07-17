@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">RelativeLayout_Example</string>
     <string name="btn_name">Center</string>
+
+    <string name="top_left">Top Left Parent</string>
+    <string name="top_right">Top Right Parent</string>
+
+    <string name="bottom_left">Bottom Left Parent</string>
+    <string name="bottom_right">Bottom Right Parent</string>
+
+
 </resources>
