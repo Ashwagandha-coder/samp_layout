@@ -14,5 +14,8 @@
     <string name="bottom_left">Bottom Left</string>
     <string name="bottom_right">Bottom Right</string>
 
+    <string name="between_top">Between Top</string>
+    <string name="between_bottom">Between Bottom</string>
+
 
 </resources>
