@@ -6,10 +6,20 @@ Items:
 
 - android:layout_above
 - android:layout_below
-- android:layout_alignBottom:
+
+- android:layout_alignBottom
 - android:layout_alignLeft
 - android:layout_alignRight
 - android:layout_alignStart
 - android:layout_alignEnd
 - android:layout_alignTop
 
+- android:layout_alignParentBottom:
+- android:layout_alignParentRight
+- android:layout_alignParentLeft
+- android:layout_alignParentStart
+- android:layout_alignParentEnd
+- android:layout_alignParentTop
+
+- android:layout_centerHorizontal
+- android:layout_centerVertical
