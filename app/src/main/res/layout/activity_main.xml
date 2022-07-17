@@ -19,7 +19,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/top_left"
+        android:text="@string/top_left_parent"
         android:background="@color/teal_200"
         android:textSize="17sp"
 
@@ -30,7 +30,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/top_right"
+        android:text="@string/top_right_right"
         android:background="@color/teal_200"
         android:textSize="17sp"
         android:layout_alignParentEnd="true"
@@ -42,7 +42,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/bottom_right"
+        android:text="@string/bottom_right_parent"
         android:background="@color/teal_200"
         android:textSize="17sp"
         android:layout_alignParentEnd="true"
@@ -55,7 +55,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/bottom_left"
+        android:text="@string/bottom_left_parent"
         android:background="@color/teal_200"
         android:textSize="17sp"
         android:layout_alignParentBottom="true"
@@ -112,6 +112,14 @@
         android:layout_marginTop="15dp"
         >
 
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        >
 
     </TextView>
 

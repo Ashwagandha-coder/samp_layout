@@ -2,11 +2,17 @@
     <string name="app_name">RelativeLayout_Example</string>
     <string name="btn_name">Center</string>
 
-    <string name="top_left">Top Left Parent</string>
-    <string name="top_right">Top Right Parent</string>
+    <string name="top_left_parent">Top Left Parent</string>
+    <string name="top_right_right">Top Right Parent</string>
 
-    <string name="bottom_left">Bottom Left Parent</string>
-    <string name="bottom_right">Bottom Right Parent</string>
+    <string name="bottom_left_parent">Bottom Left Parent</string>
+    <string name="bottom_right_parent">Bottom Right Parent</string>
+
+    <string name="top_left">Top Left</string>
+    <string name="top_right">Top Right</string>
+
+    <string name="bottom_left">Bottom Left</string>
+    <string name="bottom_right">Bottom Right</string>
 
 
 </resources>
