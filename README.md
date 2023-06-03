@@ -2,6 +2,12 @@
 ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 
+## Description
+This repo contains sample relative layout and his attributes.
+
+## Deprecated
+Relative Layout is Deprecated and this repo
+
 ![relativeLayout_example](https://user-images.githubusercontent.com/58209188/179411248-aea304e0-0a53-4676-b372-2667ea9db854.png)
 
 Items:
